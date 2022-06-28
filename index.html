@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Yuanbo Xiangli</title>
+  
+  <meta name="author" content="Yuanbo Xiangli">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Yuanbo Xiangli</name>
+              </p>
+			  <p>
+				I am a 3rd year (2019-) Ph.D student at <a href="https://mmlab.ie.cuhk.edu.hk/">Multimedia Lab</a>, Information Engineering, CUHK, supervised by Prof. Dahua Lin. 	
+			  </p>
+              <p style="text-align:center">
+                <a href="mailto:ambie.xlyb@gmail.com">Email</a> &nbsp/&nbsp
+                <a href="data/YuanboXiangli-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?hl=en&user=S6tTC-oAAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://github.com/kam1107/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/ambie.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/ambie.jpeg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                My research interest lies in 3D computer vision and deep generative modeling. Currently, I am working on photorealistic and efficient city scenes reconstruction, manipulation and generation based on multi-source data, including satellite imagery, oblique photography, street view panoramas and urban planning information.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr onmouseout="citynerf_stop()" onmouseover="citynerf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='citynerf_image'>
+                  <img src='images/citynerf_after.png' width="160"></div>
+                <img src='images/citynerf_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function citynerf_start() {
+                  document.getElementById('citynerf_image').style.opacity = "1";
+                }
+
+                function citynerf_stop() {
+                  document.getElementById('citynerf_image').style.opacity = "0";
+                }
+                citynerf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://city-super.github.io/citynerf/">
+                <papertitle>CityNeRF: Building NeRF at City Scale</papertitle>
+              </a>
+              <br>
+			        <strong>Yuanbo Xiangli*</strong>, 
+              <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>, 
+              <a href="https://xingangpan.github.io/">Xingang Pan</a>, 
+              <a href="http://nxzhao.com/">Nanxuan Zhao</a>, 
+              <a href="https://anyirao.com/">Anyi Rao</a>, 
+              <a href="https://people.mpi-inf.mpg.de/~theobalt/index.html">Christian Theobalt</a>,
+              <a href="https://daibo.info/">Bo Dai</a>,
+              <a href="http://dahua.site/">Dahua Lin</a>
+              <br>
+              <em>arxiv preprint</em>, 2021  
+              <br>
+							<a href="https://city-super.github.io/citynerf/">project page</a> / 
+							<a href="https://arxiv.org/abs/2112.05504">paper</a> / 	
+              <p></p>
+              <p>An attempt to bring NeRF to potentially city-scale scenes, which requires rendering drastically varied observations (level-of-detail and spatial coverage) at multiscales.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="blockplanner_stop()" onmouseover="blockplanner_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='blockplanner_image'>
+                  <img src='images/blockplanner_after.png' width="160"></div>
+                <img src='images/blockplanner_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function blockplanner_start() {
+                  document.getElementById('blockplanner_image').style.opacity = "1";
+                }
+
+                function blockplanner_stop() {
+                  document.getElementById('blockplanner_image').style.opacity = "0";
+                }
+                blockplanner_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://city-super.github.io/blockplanner/">
+                <papertitle>BlockPlanner: City Block Generation with Vectorized Graph Representation</papertitle>
+              </a>
+              <br>
+              <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>,
+			        <strong>Yuanbo Xiangli*</strong>, 
+              <a href="https://anyirao.com/">Anyi Rao</a>, 
+              <a href="http://nxzhao.com/">Nanxuan Zhao</a>, 
+              <a href="https://daibo.info/">Bo Dai</a>,
+              <a href="https://liuziwei7.github.io/">Ziwei Liu</a>,
+              <a href="http://dahua.site/">Dahua Lin</a>
+              <br>
+              <em>ICCV</em>, 2021  
+              <br>
+							<a href="https://city-super.github.io/blockplanner/">project page</a> / 
+							<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_BlockPlanner_City_Block_Generation_With_Vectorized_Graph_Representation_ICCV_2021_paper.pdf">paper</a>  	
+              <p></p>
+              <p>Use graph-based VAE to automatically learn from large amount of vectorized public urban planning data for fast generation of batches of diverse and valid city block templates.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="realnessgan_stop()" onmouseover="realnessgan_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='realnessgan_image'>
+                  <img src='images/realnessgan_after.png' width="160"></div>
+                <img src='images/realnessgan_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function realnessgan_start() {
+                  document.getElementById('realnessgan_image').style.opacity = "1";
+                }
+
+                function realnessgan_stop() {
+                  document.getElementById('realnessgan_image').style.opacity = "0";
+                }
+                realnessgan_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Real or Not Real, that is the Question</papertitle>
+              <br>
+              <strong>Yuanbo Xiangli*</strong>,
+              Yubin Deng*,
+              <a href="https://daibo.info/">Bo Dai*</a>,
+              <a href="https://www.mmlab-ntu.com/person/ccloy/">Chen Change Loy</a>,
+              <a href="http://dahua.site/">Dahua Lin</a>
+              <br>
+              <em>ICLR</em>, 2020 <strong>Spotlight</strong> 
+              <br>
+							<a href="https://github.com/kam1107/RealnessGAN">code</a> /
+              <a href="https://www.youtube.com/watch?v=ddYLx6kqcMg">video</a> /
+							<a href="https://arxiv.org/abs/2002.05512">paper</a> / 	
+              <a href="https://zhuanlan.zhihu.com/p/105171680">zhihu</a> 
+              <p></p>
+              <p>The proposed realness distribution provides stronger guidance to the generator and encourages it to learn more diverse outputs; enables the simplest GAN structure to synthesis high resolution portrait for the first time, with affordable computational overhead.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="nowhere_stop()" onmouseover="nowhere_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='nowhere_image'>
+                  <img src='images/nowhere_after.png' width="160"></div>
+                <img src='images/nowhere_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function nowhere_start() {
+                  document.getElementById('nowhere_image').style.opacity = "1";
+                }
+
+                function nowhere_stop() {
+                  document.getElementById('nowhere_image').style.opacity = "0";
+                }
+                nowhere_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Nowhere to Hide: Cross-modal Identity Leakage between Biometrics and Devices</papertitle>
+              <br>
+              <a href="https://christopherlu.github.io/">Chris Xiaoxuan Lu</a>,
+              Yang Li,
+              <strong>Yuanbo Xiangli</strong>,
+              <a href="https://cse.ucdenver.edu/~lizheng/publications/index.html">Zhengxiong Li</a>
+              <br>
+              <em>WWW</em>, 2020 <strong>Oral</strong> 
+              <br>
+              <a href="https://github.com/zjzsliyang/CrossLeak">code</a> /
+              <a href="https://dl.acm.org/doi/10.1145/3366423.3380108">HTML</a> /
+							<a href="https://arxiv.org/abs/2001.08211">paper</a>  	
+              <p></p>
+              <p>We explore the feasibility of the compound identity leakage across cyber-physical spaces and unveil that co-located smart device IDs (e.g., smartphone MAC addresses) and physical biometrics (e.g., facial/vocal samples) are side channels to each other. An attacker can comprehensively profile victims in multi-dimension with nearly zero analysis effort.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="scanp_stop()" onmouseover="scanp_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='scanp_image'>
+                  <img src='images/scanp_after.png' width="160"></div>
+                <img src='images/scanp_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function scanp_start() {
+                  document.getElementById('scanp_image').style.opacity = "1";
+                }
+
+                function scanp_stop() {
+                  document.getElementById('scanp_image').style.opacity = "0";
+                }
+                scanp_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <papertitle>Autonomous Learning of Speaker Identity and WiFi Geofence from Noisy Sensor Data</papertitle>
+              <br>
+              <a href="https://christopherlu.github.io/">Chris Xiaoxuan Lu</a>,
+              <strong>Yuanbo Xiangli</strong>,
+              <a href="https://scholar.google.co.uk/citations?user=et397zMAAAAJ&hl=en">Peijun Zhao</a>,
+              <a href="https://changhao-chen.github.io/">Changhao Chen</a>,
+              <a href="https://www.cs.ox.ac.uk/people/niki.trigoni/">Niki Trigoni</a>,
+              <a href="https://www.cs.ox.ac.uk/people/andrew.markham/">Andrew Markham</a>
+
+              <br>
+              <em>IEEE Internet Things J.</em>, 2019  
+              <br>
+              <a href="https://ieeexplore.ieee.org/document/8755294">HTML</a> 
+              <p></p>
+            <!-- </td> -->
+            <!-- <td style="padding:20px;width:75%;vertical-align:middle"> -->
+              <papertitle>iSCAN: automatic speaker adaptation via iterative cross-modality association</papertitle>
+              <br>
+              <strong>Yuanbo Xiangli</strong>,
+              <a href="https://christopherlu.github.io/">Chris Xiaoxuan Lu</a>,
+              <a href="https://scholar.google.co.uk/citations?user=et397zMAAAAJ&hl=en">Peijun Zhao</a>,
+              <a href="https://changhao-chen.github.io/">Changhao Chen</a>,
+              <a href="https://www.cs.ox.ac.uk/people/andrew.markham/">Andrew Markham</a>
+
+              <br>
+              <em>UbiComp/ISWC Adjunct</em>, 2019  
+              <br>
+              <a href="https://dl.acm.org/doi/abs/10.1145/3341162.3344858">HTML</a> 
+              <p></p>
+              <p>The proposed framework leverages the abundant side-channel information provided by the ubiquitous IoT environment in mordern life, enabling the construction of an in-domain speaker recognition model with zero human enrollment.</p>
+            </td>
+          </tr>
+					
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                The website template was borrowed from <a href="https://github.com/jonbarron/jonbarron_website">Jon Baron</a>. Thanks for the generosity :)
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
