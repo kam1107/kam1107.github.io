@@ -25,7 +25,7 @@
 			  </p>
               <p style="text-align:center">
                 <a href="mailto:ambie.xlyb@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="data/YuanboXiangli-CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/YuanboXiangli23.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?hl=en&user=S6tTC-oAAAAJ">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://github.com/kam1107/">Github</a>
               </p>
@@ -46,28 +46,154 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-          <tr onmouseout="citynerf_stop()" onmouseover="citynerf_start()">
+         
+          <tr onmouseout="assetfield_stop()" onmouseover="assetfield_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='citynerf_image'>
+                <div class="two" id='assetfield_image'>
+                  <img src='images/assetfield_after.png' width="160"></div>
+                <img src='images/assetfield_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function assetfield_start() {
+                  document.getElementById('assetfield_image').style.opacity = "1";
+                }
+          
+                function assetfield_stop() {
+                  document.getElementById('assetfield_image').style.opacity = "0";
+                }
+                assetfield_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://city-super.github.io/assetfield/">
+                <papertitle> AssetField: Assets Mining and Reconfiguration in Ground Feature Plane Representation</papertitle>
+              </a>
+              <br>
+              <strong>Yuanbo Xiangli*</strong>, 
+              <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>, 
+              <a href="https://xingangpan.github.io/">Xingang Pan</a>, 
+              <a href="http://nxzhao.com/">Nanxuan Zhao</a>, 
+              <a href="https://daibo.info/">Bo Dai</a>,
+              <a href="http://dahua.site/">Dahua Lin</a>
+              <br>
+              <em>arxiv preprint</em>
+              <br>
+              <a href="https://city-super.github.io/assetfield/">project page</a> / 
+              <a href="https://arxiv.org/abs/2303.13953">paper</a>  	
+              <p></p>
+              <p>We propose a novel neural scene representation that learns a set of object-aware ground feature planes,
+                where an asset library storing template feature patches can be constructed in an unsupervised manner.
+                The representation enables flexible and intuitive 3D scene editing at instance-, category- and scene-level.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="gridnerf_stop()" onmouseover="gridnerf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='gridnerf_image'>
+                  <img src='images/gridnerf_after.png' width="160"></div>
+                <img src='images/gridnerf_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function gridnerf_start() {
+                  document.getElementById('gridnerf_image').style.opacity = "1";
+                }
+          
+                function gridnerf_stop() {
+                  document.getElementById('gridnerf_image').style.opacity = "0";
+                }
+                gridnerf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://city-super.github.io/gridnerf/">
+                <papertitle> gridnerf: Progressive Neural Radiance Field for Extreme Multi-scale Scene Rendering</papertitle>
+              </a>
+              <br>
+              <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>, 
+              <strong>Yuanbo Xiangli*</strong>, 
+              <a href="https://pengsida.net/">Sida Peng</a>, 
+              <a href="https://xingangpan.github.io/">Xingang Pan</a>, 
+              <a href="http://nxzhao.com/">Nanxuan Zhao</a>, 
+              <a href="https://people.mpi-inf.mpg.de/~theobalt/index.html">Christian Theobalt</a>,
+              <a href="https://daibo.info/">Bo Dai</a>,
+              <a href="http://dahua.site/">Dahua Lin</a>
+              <br>
+              <em>ECCV</em>, 2022  
+              <br>
+              <a href="https://city-super.github.io/gridnerf/">project page</a> / 
+              <a href="https://arxiv.org/abs/2303.14001">paper</a>  	
+              <p></p>
+              <p>This work targets at modeling vast-spanned urban regions and operates on real-world data sources. 
+                We use grid features to profile the scene and a light-weighted NeRF to pick up details. 
+                The two-branch model can produce photo-realistic results with high rendering speed.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="omnicity_stop()" onmouseover="omnicity_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='omnicity_image'>
+                  <img src='images/omnicity_after.png' width="160"></div>
+                <img src='images/omnicity_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function omnicity_start() {
+                  document.getElementById('omnicity_image').style.opacity = "1";
+                }
+
+                function omnicity_stop() {
+                  document.getElementById('omnicity_image').style.opacity = "0";
+                }
+                omnicity_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://city-super.github.io/omnicity/">
+                <papertitle> OmniCity: Omnipotent City Understanding with Multi-level and Multi-view Images</papertitle>
+              </a>
+              <br>
+              <a href="https://liweijia.github.io/">Weijia Li</a>, 
+              <a>Yawen Lai</a>, 
+              <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>, 
+			        <strong>Yuanbo Xiangli*</strong>, 
+              <a>Jinhua Yu</a>, 
+              <a>Conghui He</a>, 
+              <a href="http://www.captain-whu.com/xia_En.html">Guisong Xia</a>, 
+              <a href="http://dahua.site/">Dahua Lin</a>
+              <br>
+              <em>CVPR</em>, 2023  
+              <br>
+							<a href="https://city-super.github.io/omnicity/">project page</a> / 
+							<a href="https://arxiv.org/abs/2208.00928">paper</a>  	
+              <p></p>
+              <p>A new dataset containing multi-view satellite images and street-level panoramas, constituting over 100K pixel-wise annotated images that are well-aligned and collected from 25K geo-locations.</p>
+            </td>
+          </tr>
+         
+         
+          <tr onmouseout="bungeenerf_stop()" onmouseover="bungeenerf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='bungeenerf_image'>
                   <img src='images/citynerf_after.png' width="160"></div>
                 <img src='images/citynerf_before.png' width="160">
               </div>
               <script type="text/javascript">
-                function citynerf_start() {
-                  document.getElementById('citynerf_image').style.opacity = "1";
+                function bungeenerf_start() {
+                  document.getElementById('bungeenerf_image').style.opacity = "1";
                 }
 
-                function citynerf_stop() {
-                  document.getElementById('citynerf_image').style.opacity = "0";
+                function bungeenerf_stop() {
+                  document.getElementById('bungeenerf_image').style.opacity = "0";
                 }
-                citynerf_stop()
+                bungeenerf_stop()
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
 							<a href="https://city-super.github.io/citynerf/">
-                <papertitle>CityNeRF: Building NeRF at City Scale (aka BungeeNeRF)</papertitle>
+                <papertitle> BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-scale Scene Rendering</papertitle>
               </a>
               <br>
 			        <strong>Yuanbo Xiangli*</strong>, 
@@ -150,7 +276,7 @@
               <papertitle>Real or Not Real, that is the Question</papertitle>
               <br>
               <strong>Yuanbo Xiangli*</strong>,
-              Yubin Deng*,
+              <a>Yubin Deng*</a>,
               <a href="https://daibo.info/">Bo Dai*</a>,
               <a href="https://www.mmlab-ntu.com/person/ccloy/">Chen Change Loy</a>,
               <a href="http://dahua.site/">Dahua Lin</a>
