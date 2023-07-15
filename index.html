@@ -22,7 +22,7 @@
               </p>
 			  <p>
         I recently received my Ph.D at <a href="https://mmlab.ie.cuhk.edu.hk/">Multimedia Lab</a>, Information Engineering, CUHK, supervised by Prof. Dahua Lin. 
-        
+
 				</p>
               <p style="text-align:center">
                 <a href="mailto:ambie.xlyb@gmail.com">Email</a> &nbsp/&nbsp
@@ -86,6 +86,48 @@
               <p>We propose a novel neural scene representation that learns a set of object-aware ground feature planes,
                 where an asset library storing template feature patches can be constructed in an unsupervised manner.
                 The representation enables flexible and intuitive 3D scene editing at instance-, category- and scene-level.</p>
+            </td>
+          </tr>
+
+          <tr onmouseout="matrixcity_stop()" onmouseover="matrixcity_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='matrixcity_image'>
+                  <img src='images/matrixcity_after.png' width="160"></div>
+                <img src='images/matrixcity_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function matrixcity_start() {
+                  document.getElementById('matrixcity_image').style.opacity = "1";
+                }
+          
+                function matrixcity_stop() {
+                  document.getElementById('matrixcity_image').style.opacity = "0";
+                }
+                matrixcity_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://kam1107.github.io/">
+              <papertitle> MatrixCity: A Large-scale City Dataset for City-scale Neural Rendering and Beyond</papertitle>
+              </a>
+              <br>
+              <a href="https://yixuanli98.github.io/">Yixuan Li</a>,
+              <a href="">Lihan Jiang</a>,
+              <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>, 
+              <strong>Yuanbo Xiangli</strong>, 
+              <a href="http://dahua.site/">Dahua Lin</a>,
+              <a href="https://daibo.info/">Bo Dai</a>
+              <br>
+              <em>ICCV, 2023</em>
+              <br>
+              project page / paper (upcoming) 	
+              <p></p>
+              <p> We build a large-scale, comprehensive, and high-quality synthetic dataset for city-scale neural rendering researches. 
+                Leveraging the Unreal Engine 5 City Sample project, we developed a pipeline to easily collect aerial and street city views with ground-truth camera poses, 
+                as well as a series of additional data modalities. 
+                Flexible control on environmental factors like light, weather, human and car crowd is also available in our pipeline, 
+                supporting the need of various tasks covering city-scale neural rendering and beyond.</p>
             </td>
           </tr>
 
