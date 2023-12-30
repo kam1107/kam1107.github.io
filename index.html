@@ -21,7 +21,8 @@
                 <name>Yuanbo Xiangli</name>
               </p>
 			  <p>
-        I recently received my Ph.D at <a href="https://mmlab.ie.cuhk.edu.hk/">Multimedia Lab</a>, Information Engineering, CUHK, supervised by Prof. Dahua Lin. 
+        I am an incoming postdoctoral researcher at Cornell University, advised by <a href="https://www.cs.cornell.edu/~snavely/">Prof. Noah Snavely</a>.
+        Previously, I obtained my Ph.D at <a href="https://mmlab.ie.cuhk.edu.hk/">Multimedia Lab</a>, Information Engineering, CUHK, supervised by  <a href="http://dahua.site//">Prof. Dahua Lin</a>. 
 
 				</p>
               <p style="text-align:center">
@@ -47,7 +48,48 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-         
+          
+          <tr onmouseout="scaffold_stop()" onmouseover="scaffold_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='scaffold_image'>
+                  <img src='images/scaffold_after.png' width="160"></div>
+                <img src='images/scaffold_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function scaffold_start() {
+                  document.getElementById('scaffold_image').style.opacity = "1";
+                }
+          
+                function scaffold_stop() {
+                  document.getElementById('Scaffold_image').style.opacity = "0";
+                }
+                scaffold_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://city-super.github.io/assetfield/">
+                <papertitle> Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</papertitle>
+              </a>
+              <br>
+              <a href="https://inspirelt.github.io/">Tao Lu*</a>, 
+              <a href="https://scholar.google.com/citations?user=w0Od3hQAAAAJ">Mulin Yu*</a>, 
+              <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>,
+              <strong>Yuanbo Xiangli</strong>, 
+              <a href="https://wanglimin.github.io/">Limin Wang</a>,
+              <a href="http://dahua.site/">Dahua Lin</a>,
+              <a href="https://daibo.info/">Bo Dai</a>
+              <br>
+              <em>arXiv preprint</em>
+              <br>
+              <a href="https://city-super.github.io/scaffold-gs/">project page</a> / 
+              <a href="https://arxiv.org/abs/2312.00109">paper</a>  	
+              <p></p>
+              <p>We introduce Scaffold-GS, which uses anchor points to distribute local 3D Gaussians, 
+                and predicts their attributes on-the-fly based on viewing direction and distance within the view frustum.</p>
+            </td>
+          </tr>
+
           <tr onmouseout="assetfield_stop()" onmouseover="assetfield_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
