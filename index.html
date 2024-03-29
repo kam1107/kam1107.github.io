@@ -49,6 +49,46 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           
+          <tr onmouseout="gsdf_stop()" onmouseover="gsdf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='gsdf_image'>
+                  <img src='images/gsdf_after.png' width="160"></div>
+                <img src='images/gsdf_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function gsdf_start() {
+                  document.getElementById('gsdf_image').style.opacity = "1";
+                }
+          
+                function gsdf_stop() {
+                  document.getElementById('gsdf_image').style.opacity = "0";
+                }
+                gsdf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://city-super.github.io/GSDF/">
+                <papertitle> GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction </papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=w0Od3hQAAAAJ">Mulin Yu*</a>,
+              <a href="https://inspirelt.github.io/">Tao Lu*</a>, 
+              <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>,
+              <a href="https://jianglh-whu.github.io/">Lihan Jiang</a>,
+              <strong>Yuanbo Xiangli ✉️</strong>, 
+              <a href="https://daibo.info/">Bo Dai</a>
+              <br>
+              <em>arXiv preprint</em>
+              <br>
+              <a href="https://city-super.github.io/GSDF/">project page</a> / 
+              <a href="https://arxiv.org/abs/2403.16964">paper</a>  	
+              <p></p>
+              <p>We propose GSDF, a dual-branch system that enhances rendering and reconstruction at the same time, leveraging the mutual geometry regularization and guidance between Gaussain primitives and neural surface.</p>
+            </td>
+          </tr>
+
+
           <tr onmouseout="scaffold_stop()" onmouseover="scaffold_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -68,7 +108,7 @@
               </script>
             </td>
             <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://city-super.github.io/assetfield/">
+              <a href="https://city-super.github.io/scaffold-gs/">
                 <papertitle> Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</papertitle>
               </a>
               <br>
@@ -80,7 +120,7 @@
               <a href="http://dahua.site/">Dahua Lin</a>,
               <a href="https://daibo.info/">Bo Dai</a>
               <br>
-              <em>arXiv preprint</em>
+              <em>CVPR, 2024</em>
               <br>
               <a href="https://city-super.github.io/scaffold-gs/">project page</a> / 
               <a href="https://arxiv.org/abs/2312.00109">paper</a>  	
@@ -401,7 +441,7 @@
               <br>
               <a href="https://christopherlu.github.io/">Chris Xiaoxuan Lu</a>,
               Yang Li,
-              <strong>Yuanbo Xiangli</strong>,
+              <strong>Yuanbo Xiangli ✉️</strong>,
               <a href="https://cse.ucdenver.edu/~lizheng/publications/index.html">Zhengxiong Li</a>
               <br>
               <em>WWW</em>, 2020 <strong>Oral</strong> 
