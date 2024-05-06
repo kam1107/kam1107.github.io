@@ -48,7 +48,46 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr onmouseout="gslrm_stop()" onmouseover="gslrm_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='gslrm_image'>
+                  <img src='images/gslrm_after.png' width="160"></div>
+                <img src='images/gslrm_before.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function gslrm_start() {
+                  document.getElementById('gslrm_image').style.opacity = "1";
+                }
           
+                function gslrm_stop() {
+                  document.getElementById('gslrm_image').style.opacity = "0";
+                }
+                gslrm_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://sai-bi.github.io/project/gs-lrm/">
+                <papertitle> GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting </papertitle>
+              </a>
+              <br>
+              <a href="https://kai-46.github.io/website/">Kai Zhang*</a>,
+              <a href="https://sai-bi.github.io/">Sai Bi*</a>, 
+              <a href="https://www.cs.unc.edu/~airsplay/">Hao Tan*</a>,
+              <strong>Yuanbo Xiangli</strong>, 
+              <a href="http://nxzhao.com/">Nanxuan Zhao</a>,
+              <a href="http://www.kalyans.org/">Kalyan Sunkavalli</a>,.
+              <a href="https://zexiangxu.github.io/">Zexiang Xu</a>
+              <br>
+              <em>arXiv preprint</em>
+              <br>
+              <a href="https://sai-bi.github.io/project/gs-lrm/">project page</a> / 
+              <a href="https://arxiv.org/abs/2404.19702">paper</a>  	
+              <p></p>
+              <p>We propose GS-LRM, a scalable large reconstruction model that can predict high-quality 3D Gaussian primitives from 2-4 posed sparse images in 0.23 seconds on single A100 GPU. Our model features a very simple transformer-based architecture; we patchify input posed images, pass the concatenated multi-view image tokens through a sequence of transformer blocks, and decode final per-pixel Gaussian parameters directly from these tokens for differentiable rendering. </p>
+            </td>
+          </tr>
+
           <tr onmouseout="gsdf_stop()" onmouseover="gsdf_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
