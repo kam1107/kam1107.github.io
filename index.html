@@ -33,7 +33,7 @@
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/ambie.jpeg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/ambie.jpeg" class="hoverZoomLink"></a>
+              <a href="images/ambie.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/ambie.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
         </tbody></table>
@@ -48,45 +48,6 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="gslrm_stop()" onmouseover="gslrm_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='gslrm_image'>
-                  <img src='images/gslrm_after.png' width="160"></div>
-                <img src='images/gslrm_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function gslrm_start() {
-                  document.getElementById('gslrm_image').style.opacity = "1";
-                }
-          
-                function gslrm_stop() {
-                  document.getElementById('gslrm_image').style.opacity = "0";
-                }
-                gslrm_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://sai-bi.github.io/project/gs-lrm/">
-                <papertitle> GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting </papertitle>
-              </a>
-              <br>
-              <a href="https://kai-46.github.io/website/">Kai Zhang*</a>,
-              <a href="https://sai-bi.github.io/">Sai Bi*</a>, 
-              <a href="https://www.cs.unc.edu/~airsplay/">Hao Tan*</a>,
-              <strong>Yuanbo Xiangli</strong>, 
-              <a href="http://nxzhao.com/">Nanxuan Zhao</a>,
-              <a href="http://www.kalyans.org/">Kalyan Sunkavalli</a>,
-              <a href="https://zexiangxu.github.io/">Zexiang Xu</a>
-              <br>
-              <em>arXiv preprint</em>
-              <br>
-              <a href="https://sai-bi.github.io/project/gs-lrm/">project page</a> / 
-              <a href="https://arxiv.org/abs/2404.19702">paper</a>  	
-              <p></p>
-              <p>We propose GS-LRM, a scalable large reconstruction model that can predict high-quality 3D Gaussian primitives from 2-4 posed sparse images in 0.23 seconds on single A100 GPU. Our model features a very simple transformer-based architecture; we patchify input posed images, pass the concatenated multi-view image tokens through a sequence of transformer blocks, and decode final per-pixel Gaussian parameters directly from these tokens for differentiable rendering. </p>
-            </td>
-          </tr>
 
           <tr onmouseout="gsdf_stop()" onmouseover="gsdf_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
@@ -118,12 +79,96 @@
               <strong>Yuanbo Xiangli ✉️</strong>, 
               <a href="https://daibo.info/">Bo Dai</a>
               <br>
-              <em>arXiv preprint</em>
+              <em>NeurIPS, 2024</em>
               <br>
               <a href="https://city-super.github.io/GSDF/">project page</a> / 
               <a href="https://arxiv.org/abs/2403.16964">paper</a>  	
               <p></p>
-              <p>We propose GSDF, a dual-branch system that enhances rendering and reconstruction at the same time, leveraging the mutual geometry regularization and guidance between Gaussain primitives and neural surface.</p>
+              <p>A dual-branch system enhances rendering and reconstruction at the same time, with the mutual geometry regularization and guidance between Gaussain primitives and neural surface.</p>
+            </td>
+          </tr>
+          
+          <tr onmouseout="neuralgaffer_stop()" onmouseover="neuralgaffer_start()"></tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='neuralgaffer_image'>
+                  <img src='images/neuralgaffer_before.png' width="160"></div>
+                <img src='images/neuralgaffer_after.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function neuralgaffer_start() {
+                  document.getElementById('neuralgaffer_image').style.opacity = "1";
+                }
+          
+                function neuralgaffer_stop() {
+                  document.getElementById('neuralgaffer_image').style.opacity = "0";
+                }
+                neuralgaffer_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://neural-gaffer.github.io/">
+                <papertitle> Neural Gaffer: Relighting Any Object via Diffusion </papertitle>
+              </a>
+              <br>
+              <a href="https://haian-jin.github.io/">Haian Jin</a>,
+              <a href="https://y-u-a-n-l-i.github.io/">Yuan Li</a>, 
+              <a href="https://luanfujun.com/">Fujun Luan</a>,
+              <strong>Yuanbo Xiangli</strong>, 
+              <a href="https://sai-bi.github.io/">Sai Bi</a>,
+              <a href="https://kai-46.github.io/website/">Kai Zhang</a>,
+              <a href="https://zexiangxu.github.io/">Zexiang Xu</a>
+              <a href="https://jinsungit.github.io/">Jin Sun</a>
+              <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>
+
+              <br>
+              <em>NeurIPS, 2024</em>
+              <br>
+              <a href="https://neural-gaffer.github.io/">project page</a> / 
+              <a href="https://arxiv.org/abs/2406.07520">paper</a>  	
+              <p></p>
+              <p>Neural Gaffer is an end-to-end 2D relighting diffusion model that accurately relights any object in a single image under various lighting conditions. </p>
+            </td>
+          </tr>
+          
+          
+          <tr onmouseout="gslrm_stop()" onmouseover="gslrm_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='gslrm_image'>
+                  <img src='images/gslrm_before.png' width="160"></div>
+                <img src='images/gslrm_after.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function gslrm_start() {
+                  document.getElementById('gslrm_image').style.opacity = "1";
+                }
+          
+                function gslrm_stop() {
+                  document.getElementById('gslrm_image').style.opacity = "0";
+                }
+                gslrm_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://sai-bi.github.io/project/gs-lrm/">
+                <papertitle> GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting </papertitle>
+              </a>
+              <br>
+              <a href="https://kai-46.github.io/website/">Kai Zhang*</a>,
+              <a href="https://sai-bi.github.io/">Sai Bi*</a>, 
+              <a href="https://www.cs.unc.edu/~airsplay/">Hao Tan*</a>,
+              <strong>Yuanbo Xiangli</strong>, 
+              <a href="http://nxzhao.com/">Nanxuan Zhao</a>,
+              <a href="http://www.kalyans.org/">Kalyan Sunkavalli</a>,
+              <a href="https://zexiangxu.github.io/">Zexiang Xu</a>
+              <br>
+              <em>ECCV, 2024</em>
+              <br>
+              <a href="https://sai-bi.github.io/project/gs-lrm/">project page</a> / 
+              <a href="https://arxiv.org/abs/2404.19702">paper</a>  	
+              <p></p>
+              <p>High-quality 3D Gaussian primitives from 2-4 posed sparse images within 0.23 seconds. </p>
             </td>
           </tr>
 
@@ -164,8 +209,7 @@
               <a href="https://city-super.github.io/scaffold-gs/">project page</a> / 
               <a href="https://arxiv.org/abs/2312.00109">paper</a>  	
               <p></p>
-              <p>We introduce Scaffold-GS, which uses anchor points to distribute local 3D Gaussians, 
-                and predicts their attributes on-the-fly based on viewing direction and distance within the view frustum.</p>
+              <p>Scaffold-GS uses anchor points to distribute local 3D Gaussians, and predicts their attributes on-the-fly based on viewing direction and distance within the view frustum.</p>
             </td>
           </tr>
 
@@ -204,7 +248,7 @@
               <a href="https://city-super.github.io/assetfield/">project page</a> / 
               <a href="https://arxiv.org/abs/2303.13953">paper</a>  	
               <p></p>
-              <p>We propose a novel neural scene representation that learns a set of object-aware ground feature planes,
+              <p>A novel neural scene representation that learns a set of object-aware ground feature planes,
                 where an asset library storing template feature patches can be constructed in an unsupervised manner.
                 The representation enables flexible and intuitive 3D scene editing at instance-, category- and scene-level.</p>
             </td>
@@ -245,7 +289,7 @@
               <a href="https://city-super.github.io/matrixcity/">project page</a> / 
               <a href="https://arxiv.org/abs/2309.16553">paper</a>  		
               <p></p>
-              <p> We build a large-scale, comprehensive, and high-quality synthetic dataset for city-scale neural rendering researches. 
+              <p> A large-scale, comprehensive, and high-quality synthetic dataset for city-scale neural rendering researches. 
                 Leveraging the Unreal Engine 5 City Sample project, we developed a pipeline to easily collect aerial and street city views with ground-truth camera poses, 
                 as well as a series of additional data modalities. 
                 Flexible control on environmental factors like light, weather, human and car crowd is also available in our pipeline, 
