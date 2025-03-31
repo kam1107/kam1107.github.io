@@ -1,636 +1,1026 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <title>Yuanbo Xiangli</title>
-  
-  <meta name="author" content="Yuanbo Xiangli">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Open Graph Meta Tags for better visibility on social media and search engines -->
-  <meta property="og:type" content="profile">
-  <meta property="og:title" content="Yuanbo Xiangli">
-  <meta property="og:description" content="Postdoctoral researcher at Cornell University.">
-  <meta property="og:url" content="https://kam1107.github.io/">
-  <meta property="og:image" content="https://kam1107.github.io/images/ambie.jpg">
-  
-  <!-- Schema.org Person structured data for rich search results -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "Yuanbo Xiangli",
-    "url": "https://kam1107.github.io/",
-    "image": "https://kam1107.github.io/images/ambie.jpg",
-    "jobTitle": "Postdoctoral Researcher",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Cornell University"
-    }
-  }
-  </script>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-  <!-- Stylesheet and Favicon -->
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+    <title>Yuanbo Xiangli</title>
 
-</head>
+    <meta name="author" content="Yuanbo Xiangli" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Open Graph Meta Tags for better visibility on social media and search engines -->
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content="Yuanbo Xiangli" />
+    <meta
+      property="og:description"
+      content="Postdoctoral researcher at Cornell University."
+    />
+    <meta property="og:url" content="https://kam1107.github.io/" />
+    <meta
+      property="og:image"
+      content="https://kam1107.github.io/images/ambie.jpg"
+    />
 
-<body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Yuanbo Xiangli</name>
-              </p>
-			  <p>
-        I am a postdoctoral researcher at Cornell University, advised by <a href="https://www.cs.cornell.edu/~snavely/">Prof. Noah Snavely</a>.
-        Previously, I obtained my Ph.D at <a href="https://mmlab.ie.cuhk.edu.hk/">Multimedia Lab</a>, Information Engineering, CUHK, supervised by  <a href="http://dahua.site//">Prof. Dahua Lin</a>. 
+    <!-- Schema.org Person structured data for rich search results -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Yuanbo Xiangli",
+        "url": "https://kam1107.github.io/",
+        "image": "https://kam1107.github.io/images/ambie.jpg",
+        "jobTitle": "Postdoctoral Researcher",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Cornell University"
+        }
+      }
+    </script>
 
-				</p>
-              <p style="text-align:center">
-                <a href="mailto:ambie.xlyb@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="data/CV_YXiangli.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?hl=en&user=S6tTC-oAAAAJ">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://github.com/kam1107/">Github</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="images/ambie.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/ambie.jpg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-              <p>
-                My research interest lies in 3D computer vision and deep generative modeling. Currently, I am working on photorealistic and efficient city scenes reconstruction, manipulation and generation based on multi-source data, including satellite imagery, oblique photography, street view panoramas and urban planning information.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <!-- Stylesheet and Favicon -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>"
+    />
+  </head>
 
-          <tr onmouseout="gsdf_stop()" onmouseover="gsdf_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='gsdf_image'>
-                  <img src='images/gsdf_after.png' width="160"></div>
-                <img src='images/gsdf_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function gsdf_start() {
-                  document.getElementById('gsdf_image').style.opacity = "1";
-                }
-          
-                function gsdf_stop() {
-                  document.getElementById('gsdf_image').style.opacity = "0";
-                }
-                gsdf_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://city-super.github.io/GSDF/">
-                <papertitle> GSDF: 3DGS Meets SDF for Improved Rendering and Reconstruction </papertitle>
-              </a>
-              <br>
-              <a href="https://scholar.google.com/citations?user=w0Od3hQAAAAJ">Mulin Yu*</a>,
-              <a href="https://inspirelt.github.io/">Tao Lu*</a>, 
-              <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>,
-              <a href="https://jianglh-whu.github.io/">Lihan Jiang</a>,
-              <strong>Yuanbo Xiangli ✉️</strong>, 
-              <a href="https://daibo.info/">Bo Dai</a>
-              <br>
-              <em>NeurIPS, 2024</em>
-              <br>
-              <a href="https://city-super.github.io/GSDF/">project page</a> / 
-              <a href="https://arxiv.org/abs/2403.16964">paper</a>  	
-              <p></p>
-              <p>A dual-branch system enhances rendering and reconstruction at the same time, with the mutual geometry regularization and guidance between Gaussain primitives and neural surface.</p>
-            </td>
-          </tr>
+  <body>
+    <table
+      style="
+        width: 100%;
+        max-width: 800px;
+        border: 0px;
+        border-spacing: 0px;
+        border-collapse: separate;
+        margin-right: auto;
+        margin-left: auto;
+      "
+    >
+      <tbody>
+        <tr style="padding: 0px">
+          <td style="padding: 0px">
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr style="padding: 0px">
+                  <td style="padding: 2.5%; width: 63%; vertical-align: middle">
+                    <p style="text-align: center">
+                      <name>Yuanbo Xiangli</name>
+                    </p>
+                    <p>
+                      I am a postdoctoral researcher at Cornell University,
+                      advised by
+                      <a href="https://www.cs.cornell.edu/~snavely/"
+                        >Prof. Noah Snavely</a
+                      >. Previously, I obtained my Ph.D at
+                      <a href="https://mmlab.ie.cuhk.edu.hk/">Multimedia Lab</a
+                      >, Information Engineering, CUHK, supervised by
+                      <a href="http://dahua.site//">Prof. Dahua Lin</a>.
+                    </p>
+                    <p style="text-align: center">
+                      <a href="mailto:ambie.xlyb@gmail.com">Email</a>
+                      &nbsp/&nbsp
+                      <a href="data/CV_YXiangli.pdf">CV</a> &nbsp/&nbsp
+                      <a
+                        href="https://scholar.google.com/citations?hl=en&user=S6tTC-oAAAAJ"
+                        >Google Scholar</a
+                      >
+                      &nbsp/&nbsp
+                      <a href="https://github.com/kam1107/">Github</a>
+                    </p>
+                  </td>
+                  <td style="padding: 2.5%; width: 40%; max-width: 40%">
+                    <a href="images/ambie.jpg"
+                      ><img
+                        style="width: 100%; max-width: 100%"
+                        alt="profile photo"
+                        src="images/ambie.jpg"
+                        class="hoverZoomLink"
+                    /></a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td
+                    style="padding: 20px; width: 100%; vertical-align: middle"
+                  >
+                    <heading>Research</heading>
+                    <p>
+                      My research interest lies in 3D computer vision and deep
+                      generative modeling. Currently, I am working on
+                      photorealistic and efficient city scenes reconstruction,
+                      manipulation and generation based on multi-source data,
+                      including satellite imagery, oblique photography, street
+                      view panoramas and urban planning information.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr onmouseout="dgpp_stop()" onmouseover="dgpp_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="dgpp_image">
+                        <img src="images/dgpp_after.png" width="160" />
+                      </div>
+                      <img src="images/dgpp_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function dgpp_start() {
+                        document.getElementById("dgpp_image").style.opacity =
+                          "1";
+                      }
 
-          <tr onmouseout="neuralgaffer_stop()" onmouseover="neuralgaffer_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='neuralgaffer_image'>
-                  <img src='images/neuralgaffer_after.png' width="160"></div>
-                <img src='images/neuralgaffer_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function neuralgaffer_start() {
-                  document.getElementById('neuralgaffer_image').style.opacity = "1";
-                }
-          
-                function neuralgaffer_stop() {
-                  document.getElementById('neuralgaffer_image').style.opacity = "0";
-                }
-                neuralgaffer_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://neural-gaffer.github.io/">
-                <papertitle> Neural Gaffer: Relighting Any Object via Diffusion </papertitle>
-              </a>
-              <br>
-              <a href="https://haian-jin.github.io/">Haian Jin</a>,
-              <a href="https://y-u-a-n-l-i.github.io/">Yuan Li</a>, 
-              <a href="https://luanfujun.com/">Fujun Luan</a>,
-              <strong>Yuanbo Xiangli</strong>, 
-              <a href="https://sai-bi.github.io/">Sai Bi</a>,
-              <a href="https://kai-46.github.io/website/">Kai Zhang</a>,
-              <a href="https://zexiangxu.github.io/">Zexiang Xu</a>,
-              <a href="https://jinsungit.github.io/">Jin Sun</a>,
-              <a href="https://www.cs.cornell.edu/~snavely/">Noah Snavely</a>
+                      function dgpp_stop() {
+                        document.getElementById("dgpp_image").style.opacity =
+                          "0";
+                      }
+                      dgpp_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a
+                      href="https://doppelgangers25.github.io/doppelgangers_plusplus/"
+                    >
+                      <papertitle>
+                        Doppelgangers++: Improved Visual Disambiguation with
+                        Geometric 3D Features
+                      </papertitle>
+                    </a>
+                    <br />
+                    <strong>Yuanbo Xiangli</strong>,
+                    <a href="https://www.cs.cornell.edu/~ruojin/">Ruojin Cai</a
+                    >, <a href="https://hanyuc.com/">Hanyu Chen</a>,
+                    <a href="https://www.jeffreybyrne.com/">Jeffrey Byrne</a>,
+                    <a href="https://www.cs.cornell.edu/~snavely/"
+                      >Noah Snavely</a
+                    >
+                    <br />
+                    <em>CVPR, 2025</em>
+                    <br />
+                    <a
+                      href="https://doppelgangers25.github.io/doppelgangers_plusplus/"
+                      >project page</a
+                    >
+                    /
+                    <a href="https://arxiv.org/abs/2412.05826">paper</a>
+                    <p></p>
+                    <p>
+                      An enhanced pairwise image classifier that tackles visual
+                      aliasing (doppelgangers) to improve 3D reconstruction
+                      accuracy across diverse, real-world scenes.
+                    </p>
+                  </td>
+                </tr>
 
-              <br>
-              <em>NeurIPS, 2024</em>
-              <br>
-              <a href="https://neural-gaffer.github.io/">project page</a> / 
-              <a href="https://arxiv.org/abs/2406.07520">paper</a>  	
-              <p></p>
-              <p>Neural Gaffer is an end-to-end 2D relighting diffusion model that accurately relights any object in a single image under various lighting conditions. </p>
-            </td>
-          </tr>
-          
-          
-          <tr onmouseout="gslrm_stop()" onmouseover="gslrm_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='gslrm_image'>
-                  <img src='images/gslrm_before.png' width="160"></div>
-                <img src='images/gslrm_after.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function gslrm_start() {
-                  document.getElementById('gslrm_image').style.opacity = "1";
-                }
-          
-                function gslrm_stop() {
-                  document.getElementById('gslrm_image').style.opacity = "0";
-                }
-                gslrm_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://sai-bi.github.io/project/gs-lrm/">
-                <papertitle> GS-LRM: Large Reconstruction Model for 3D Gaussian Splatting </papertitle>
-              </a>
-              <br>
-              <a href="https://kai-46.github.io/website/">Kai Zhang*</a>,
-              <a href="https://sai-bi.github.io/">Sai Bi*</a>, 
-              <a href="https://www.cs.unc.edu/~airsplay/">Hao Tan*</a>,
-              <strong>Yuanbo Xiangli</strong>, 
-              <a href="http://nxzhao.com/">Nanxuan Zhao</a>,
-              <a href="http://www.kalyans.org/">Kalyan Sunkavalli</a>,
-              <a href="https://zexiangxu.github.io/">Zexiang Xu</a>
-              <br>
-              <em>ECCV, 2024</em>
-              <br>
-              <a href="https://sai-bi.github.io/project/gs-lrm/">project page</a> / 
-              <a href="https://arxiv.org/abs/2404.19702">paper</a>  	
-              <p></p>
-              <p>High-quality 3D Gaussian primitives from 2-4 posed sparse images within 0.23 seconds. </p>
-            </td>
-          </tr>
+                <tr onmouseout="gsdf_stop()" onmouseover="gsdf_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="gsdf_image">
+                        <img src="images/gsdf_after.png" width="160" />
+                      </div>
+                      <img src="images/gsdf_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function gsdf_start() {
+                        document.getElementById("gsdf_image").style.opacity =
+                          "1";
+                      }
 
+                      function gsdf_stop() {
+                        document.getElementById("gsdf_image").style.opacity =
+                          "0";
+                      }
+                      gsdf_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://city-super.github.io/GSDF/">
+                      <papertitle>
+                        GSDF: 3DGS Meets SDF for Improved Rendering and
+                        Reconstruction
+                      </papertitle>
+                    </a>
+                    <br />
+                    <a
+                      href="https://scholar.google.com/citations?user=w0Od3hQAAAAJ"
+                      >Mulin Yu*</a
+                    >, <a href="https://inspirelt.github.io/">Tao Lu*</a>,
+                    <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>,
+                    <a href="https://jianglh-whu.github.io/">Lihan Jiang</a>,
+                    <strong>Yuanbo Xiangli ✉️</strong>,
+                    <a href="https://daibo.info/">Bo Dai</a>
+                    <br />
+                    <em>NeurIPS, 2024</em>
+                    <br />
+                    <a href="https://city-super.github.io/GSDF/"
+                      >project page</a
+                    >
+                    /
+                    <a href="https://arxiv.org/abs/2403.16964">paper</a>
+                    <p></p>
+                    <p>
+                      A dual-branch system enhances rendering and reconstruction
+                      at the same time, with the mutual geometry regularization
+                      and guidance between Gaussain primitives and neural
+                      surface.
+                    </p>
+                  </td>
+                </tr>
 
-          <tr onmouseout="scaffold_stop()" onmouseover="scaffold_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='scaffold_image'>
-                  <img src='images/scaffold_after.png' width="160"></div>
-                <img src='images/scaffold_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function scaffold_start() {
-                  document.getElementById('scaffold_image').style.opacity = "1";
-                }
-          
-                function scaffold_stop() {
-                  document.getElementById('scaffold_image').style.opacity = "0";
-                }
-                scaffold_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://city-super.github.io/scaffold-gs/">
-                <papertitle> Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering</papertitle>
-              </a>
-              <br>
-              <a href="https://inspirelt.github.io/">Tao Lu*</a>, 
-              <a href="https://scholar.google.com/citations?user=w0Od3hQAAAAJ">Mulin Yu*</a>, 
-              <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>,
-              <strong>Yuanbo Xiangli</strong>, 
-              <a href="https://wanglimin.github.io/">Limin Wang</a>,
-              <a href="http://dahua.site/">Dahua Lin</a>,
-              <a href="https://daibo.info/">Bo Dai</a>
-              <br>
-              <em>CVPR, 2024</em>
-              <br>
-              <a href="https://city-super.github.io/scaffold-gs/">project page</a> / 
-              <a href="https://arxiv.org/abs/2312.00109">paper</a>  	
-              <p></p>
-              <p>Scaffold-GS uses anchor points to distribute local 3D Gaussians, and predicts their attributes on-the-fly based on viewing direction and distance within the view frustum.</p>
-            </td>
-          </tr>
+                <tr
+                  onmouseout="neuralgaffer_stop()"
+                  onmouseover="neuralgaffer_start()"
+                >
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="neuralgaffer_image">
+                        <img src="images/neuralgaffer_after.png" width="160" />
+                      </div>
+                      <img src="images/neuralgaffer_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function neuralgaffer_start() {
+                        document.getElementById(
+                          "neuralgaffer_image"
+                        ).style.opacity = "1";
+                      }
 
-          <tr onmouseout="assetfield_stop()" onmouseover="assetfield_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='assetfield_image'>
-                  <img src='images/assetfield_after.png' width="160"></div>
-                <img src='images/assetfield_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function assetfield_start() {
-                  document.getElementById('assetfield_image').style.opacity = "1";
-                }
-          
-                function assetfield_stop() {
-                  document.getElementById('assetfield_image').style.opacity = "0";
-                }
-                assetfield_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://city-super.github.io/assetfield/">
-                <papertitle> AssetField: Assets Mining and Reconfiguration in Ground Feature Plane Representation</papertitle>
-              </a>
-              <br>
-              <strong>Yuanbo Xiangli*</strong>, 
-              <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>, 
-              <a href="https://xingangpan.github.io/">Xingang Pan</a>, 
-              <a href="http://nxzhao.com/">Nanxuan Zhao</a>, 
-              <a href="https://daibo.info/">Bo Dai</a>,
-              <a href="http://dahua.site/">Dahua Lin</a>
-              <br>
-              <em>ICCV, 2023</em>
-              <br>
-              <a href="https://city-super.github.io/assetfield/">project page</a> / 
-              <a href="https://arxiv.org/abs/2303.13953">paper</a>  	
-              <p></p>
-              <p>A novel neural scene representation that learns a set of object-aware ground feature planes,
-                where an asset library storing template feature patches can be constructed in an unsupervised manner.
-                The representation enables flexible and intuitive 3D scene editing at instance-, category- and scene-level.</p>
-            </td>
-          </tr>
+                      function neuralgaffer_stop() {
+                        document.getElementById(
+                          "neuralgaffer_image"
+                        ).style.opacity = "0";
+                      }
+                      neuralgaffer_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://neural-gaffer.github.io/">
+                      <papertitle>
+                        Neural Gaffer: Relighting Any Object via Diffusion
+                      </papertitle>
+                    </a>
+                    <br />
+                    <a href="https://haian-jin.github.io/">Haian Jin</a>,
+                    <a href="https://y-u-a-n-l-i.github.io/">Yuan Li</a>,
+                    <a href="https://luanfujun.com/">Fujun Luan</a>,
+                    <strong>Yuanbo Xiangli</strong>,
+                    <a href="https://sai-bi.github.io/">Sai Bi</a>,
+                    <a href="https://kai-46.github.io/website/">Kai Zhang</a>,
+                    <a href="https://zexiangxu.github.io/">Zexiang Xu</a>,
+                    <a href="https://jinsungit.github.io/">Jin Sun</a>,
+                    <a href="https://www.cs.cornell.edu/~snavely/"
+                      >Noah Snavely</a
+                    >
 
-          <tr onmouseout="matrixcity_stop()" onmouseover="matrixcity_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='matrixcity_image'>
-                  <img src='images/matrixcity_after.png' width="160"></div>
-                <img src='images/matrixcity_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function matrixcity_start() {
-                  document.getElementById('matrixcity_image').style.opacity = "1";
-                }
-          
-                function matrixcity_stop() {
-                  document.getElementById('matrixcity_image').style.opacity = "0";
-                }
-                matrixcity_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://kam1107.github.io/">
-              <papertitle> MatrixCity: A Large-scale City Dataset for City-scale Neural Rendering and Beyond</papertitle>
-              </a>
-              <br>
-              <a href="https://yixuanli98.github.io/">Yixuan Li</a>,
-              <a href="">Lihan Jiang</a>,
-              <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>, 
-              <strong>Yuanbo Xiangli</strong>, 
-              <a href="http://dahua.site/">Dahua Lin</a>,
-              <a href="https://daibo.info/">Bo Dai</a>
-              <br>
-              <em>ICCV, 2023</em>
-              <br>
-              <a href="https://city-super.github.io/matrixcity/">project page</a> / 
-              <a href="https://arxiv.org/abs/2309.16553">paper</a>  		
-              <p></p>
-              <p> A large-scale, comprehensive, and high-quality synthetic dataset for city-scale neural rendering researches. 
-                Leveraging the Unreal Engine 5 City Sample project, we developed a pipeline to easily collect aerial and street city views with ground-truth camera poses, 
-                as well as a series of additional data modalities. 
-                Flexible control on environmental factors like light, weather, human and car crowd is also available in our pipeline, 
-                supporting the need of various tasks covering city-scale neural rendering and beyond.</p>
-            </td>
-          </tr>
+                    <br />
+                    <em>NeurIPS, 2024</em>
+                    <br />
+                    <a href="https://neural-gaffer.github.io/">project page</a>
+                    /
+                    <a href="https://arxiv.org/abs/2406.07520">paper</a>
+                    <p></p>
+                    <p>
+                      Neural Gaffer is an end-to-end 2D relighting diffusion
+                      model that accurately relights any object in a single
+                      image under various lighting conditions.
+                    </p>
+                  </td>
+                </tr>
 
-          <tr onmouseout="gridnerf_stop()" onmouseover="gridnerf_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='gridnerf_image'>
-                  <img src='images/gridnerf_after.png' width="160"></div>
-                <img src='images/gridnerf_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function gridnerf_start() {
-                  document.getElementById('gridnerf_image').style.opacity = "1";
-                }
-          
-                function gridnerf_stop() {
-                  document.getElementById('gridnerf_image').style.opacity = "0";
-                }
-                gridnerf_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://city-super.github.io/gridnerf/">
-                <papertitle> Grid-guided Neural Radiance Fields for Large Urban Scenes</papertitle>
-              </a>
-              <br>
-              <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>, 
-              <strong>Yuanbo Xiangli*</strong>, 
-              <a href="https://pengsida.net/">Sida Peng</a>, 
-              <a href="https://xingangpan.github.io/">Xingang Pan</a>, 
-              <a href="http://nxzhao.com/">Nanxuan Zhao</a>, 
-              <a href="https://people.mpi-inf.mpg.de/~theobalt/index.html">Christian Theobalt</a>,
-              <a href="https://daibo.info/">Bo Dai</a>,
-              <a href="http://dahua.site/">Dahua Lin</a>
-              <br>
-              <em>CVPR</em>, 2023  
-              <br>
-              <a href="https://city-super.github.io/gridnerf/">project page</a> / 
-              <a href="https://arxiv.org/abs/2303.14001">paper</a>  	
-              <p></p>
-              <p>This work targets at modeling vast-spanned urban regions and operates on real-world data sources. 
-                We use grid features to profile the scene and a light-weighted NeRF to pick up details. 
-                The two-branch model can produce photo-realistic results with high rendering speed.</p>
-            </td>
-          </tr>
+                <tr onmouseout="gslrm_stop()" onmouseover="gslrm_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="gslrm_image">
+                        <img src="images/gslrm_before.png" width="160" />
+                      </div>
+                      <img src="images/gslrm_after.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function gslrm_start() {
+                        document.getElementById("gslrm_image").style.opacity =
+                          "1";
+                      }
 
-          <tr onmouseout="omnicity_stop()" onmouseover="omnicity_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='omnicity_image'>
-                  <img src='images/omnicity_after.png' width="160"></div>
-                <img src='images/omnicity_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function omnicity_start() {
-                  document.getElementById('omnicity_image').style.opacity = "1";
-                }
+                      function gslrm_stop() {
+                        document.getElementById("gslrm_image").style.opacity =
+                          "0";
+                      }
+                      gslrm_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://sai-bi.github.io/project/gs-lrm/">
+                      <papertitle>
+                        GS-LRM: Large Reconstruction Model for 3D Gaussian
+                        Splatting
+                      </papertitle>
+                    </a>
+                    <br />
+                    <a href="https://kai-46.github.io/website/">Kai Zhang*</a>,
+                    <a href="https://sai-bi.github.io/">Sai Bi*</a>,
+                    <a href="https://www.cs.unc.edu/~airsplay/">Hao Tan*</a>,
+                    <strong>Yuanbo Xiangli</strong>,
+                    <a href="http://nxzhao.com/">Nanxuan Zhao</a>,
+                    <a href="http://www.kalyans.org/">Kalyan Sunkavalli</a>,
+                    <a href="https://zexiangxu.github.io/">Zexiang Xu</a>
+                    <br />
+                    <em>ECCV, 2024</em>
+                    <br />
+                    <a href="https://sai-bi.github.io/project/gs-lrm/"
+                      >project page</a
+                    >
+                    /
+                    <a href="https://arxiv.org/abs/2404.19702">paper</a>
+                    <p></p>
+                    <p>
+                      High-quality 3D Gaussian primitives from 2-4 posed sparse
+                      images within 0.23 seconds.
+                    </p>
+                  </td>
+                </tr>
 
-                function omnicity_stop() {
-                  document.getElementById('omnicity_image').style.opacity = "0";
-                }
-                omnicity_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://city-super.github.io/omnicity/">
-                <papertitle> OmniCity: Omnipotent City Understanding with Multi-level and Multi-view Images</papertitle>
-              </a>
-              <br>
-              <a href="https://liweijia.github.io/">Weijia Li</a>, 
-              <a>Yawen Lai</a>, 
-              <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>, 
-			        <strong>Yuanbo Xiangli</strong>, 
-              <a>Jinhua Yu</a>, 
-              <a>Conghui He</a>, 
-              <a href="http://www.captain-whu.com/xia_En.html">Guisong Xia</a>, 
-              <a href="http://dahua.site/">Dahua Lin</a>
-              <br>
-              <em>CVPR</em>, 2023  
-              <br>
-							<a href="https://city-super.github.io/omnicity/">project page</a> / 
-							<a href="https://arxiv.org/abs/2208.00928">paper</a>  	
-              <p></p>
-              <p>A new dataset containing multi-view satellite images and street-level panoramas, constituting over 100K pixel-wise annotated images that are well-aligned and collected from 25K geo-locations.</p>
-            </td>
-          </tr>
-         
-         
-          <tr onmouseout="bungeenerf_stop()" onmouseover="bungeenerf_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='bungeenerf_image'>
-                  <img src='images/citynerf_after.png' width="160"></div>
-                <img src='images/citynerf_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function bungeenerf_start() {
-                  document.getElementById('bungeenerf_image').style.opacity = "1";
-                }
+                <tr onmouseout="scaffold_stop()" onmouseover="scaffold_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="scaffold_image">
+                        <img src="images/scaffold_after.png" width="160" />
+                      </div>
+                      <img src="images/scaffold_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function scaffold_start() {
+                        document.getElementById(
+                          "scaffold_image"
+                        ).style.opacity = "1";
+                      }
 
-                function bungeenerf_stop() {
-                  document.getElementById('bungeenerf_image').style.opacity = "0";
-                }
-                bungeenerf_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://city-super.github.io/citynerf/">
-                <papertitle> BungeeNeRF: Progressive Neural Radiance Field for Extreme Multi-scale Scene Rendering</papertitle>
-              </a>
-              <br>
-			        <strong>Yuanbo Xiangli*</strong>, 
-              <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>, 
-              <a href="https://xingangpan.github.io/">Xingang Pan</a>, 
-              <a href="http://nxzhao.com/">Nanxuan Zhao</a>, 
-              <a href="https://anyirao.com/">Anyi Rao</a>, 
-              <a href="https://people.mpi-inf.mpg.de/~theobalt/index.html">Christian Theobalt</a>,
-              <a href="https://daibo.info/">Bo Dai</a>,
-              <a href="http://dahua.site/">Dahua Lin</a>
-              <br>
-              <em>ECCV</em>, 2022  
-              <br>
-							<a href="https://city-super.github.io/citynerf/">project page</a> / 
-							<a href="https://arxiv.org/abs/2112.05504">paper</a>  	
-              <p></p>
-              <p>An attempt to bring NeRF to potentially city-scale scenes, which requires rendering drastically varied observations (level-of-detail and spatial coverage) at multiscales.</p>
-            </td>
-          </tr>
+                      function scaffold_stop() {
+                        document.getElementById(
+                          "scaffold_image"
+                        ).style.opacity = "0";
+                      }
+                      scaffold_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://city-super.github.io/scaffold-gs/">
+                      <papertitle>
+                        Scaffold-GS: Structured 3D Gaussians for View-Adaptive
+                        Rendering</papertitle
+                      >
+                    </a>
+                    <br />
+                    <a href="https://inspirelt.github.io/">Tao Lu*</a>,
+                    <a
+                      href="https://scholar.google.com/citations?user=w0Od3hQAAAAJ"
+                      >Mulin Yu*</a
+                    >,
+                    <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>,
+                    <strong>Yuanbo Xiangli</strong>,
+                    <a href="https://wanglimin.github.io/">Limin Wang</a>,
+                    <a href="http://dahua.site/">Dahua Lin</a>,
+                    <a href="https://daibo.info/">Bo Dai</a>
+                    <br />
+                    <em>CVPR, 2024</em>
+                    <br />
+                    <a href="https://city-super.github.io/scaffold-gs/"
+                      >project page</a
+                    >
+                    /
+                    <a href="https://arxiv.org/abs/2312.00109">paper</a>
+                    <p></p>
+                    <p>
+                      Scaffold-GS uses anchor points to distribute local 3D
+                      Gaussians, and predicts their attributes on-the-fly based
+                      on viewing direction and distance within the view frustum.
+                    </p>
+                  </td>
+                </tr>
 
-          <tr onmouseout="blockplanner_stop()" onmouseover="blockplanner_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='blockplanner_image'>
-                  <img src='images/blockplanner_after.png' width="160"></div>
-                <img src='images/blockplanner_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function blockplanner_start() {
-                  document.getElementById('blockplanner_image').style.opacity = "1";
-                }
+                <tr
+                  onmouseout="assetfield_stop()"
+                  onmouseover="assetfield_start()"
+                >
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="assetfield_image">
+                        <img src="images/assetfield_after.png" width="160" />
+                      </div>
+                      <img src="images/assetfield_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function assetfield_start() {
+                        document.getElementById(
+                          "assetfield_image"
+                        ).style.opacity = "1";
+                      }
 
-                function blockplanner_stop() {
-                  document.getElementById('blockplanner_image').style.opacity = "0";
-                }
-                blockplanner_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-							<a href="https://city-super.github.io/blockplanner/">
-                <papertitle>BlockPlanner: City Block Generation with Vectorized Graph Representation</papertitle>
-              </a>
-              <br>
-              <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>,
-			        <strong>Yuanbo Xiangli*</strong>, 
-              <a href="https://anyirao.com/">Anyi Rao</a>, 
-              <a href="http://nxzhao.com/">Nanxuan Zhao</a>, 
-              <a href="https://daibo.info/">Bo Dai</a>,
-              <a href="https://liuziwei7.github.io/">Ziwei Liu</a>,
-              <a href="http://dahua.site/">Dahua Lin</a>
-              <br>
-              <em>ICCV</em>, 2021  
-              <br>
-							<a href="https://city-super.github.io/blockplanner/">project page</a> / 
-							<a href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_BlockPlanner_City_Block_Generation_With_Vectorized_Graph_Representation_ICCV_2021_paper.pdf">paper</a>  	
-              <p></p>
-              <p>Use graph-based VAE to automatically learn from large amount of vectorized public urban planning data for fast generation of batches of diverse and valid city block templates.</p>
-            </td>
-          </tr>
+                      function assetfield_stop() {
+                        document.getElementById(
+                          "assetfield_image"
+                        ).style.opacity = "0";
+                      }
+                      assetfield_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://city-super.github.io/assetfield/">
+                      <papertitle>
+                        AssetField: Assets Mining and Reconfiguration in Ground
+                        Feature Plane Representation</papertitle
+                      >
+                    </a>
+                    <br />
+                    <strong>Yuanbo Xiangli*</strong>,
+                    <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>,
+                    <a href="https://xingangpan.github.io/">Xingang Pan</a>,
+                    <a href="http://nxzhao.com/">Nanxuan Zhao</a>,
+                    <a href="https://daibo.info/">Bo Dai</a>,
+                    <a href="http://dahua.site/">Dahua Lin</a>
+                    <br />
+                    <em>ICCV, 2023</em>
+                    <br />
+                    <a href="https://city-super.github.io/assetfield/"
+                      >project page</a
+                    >
+                    /
+                    <a href="https://arxiv.org/abs/2303.13953">paper</a>
+                    <p></p>
+                    <p>
+                      A novel neural scene representation that learns a set of
+                      object-aware ground feature planes, where an asset library
+                      storing template feature patches can be constructed in an
+                      unsupervised manner. The representation enables flexible
+                      and intuitive 3D scene editing at instance-, category- and
+                      scene-level.
+                    </p>
+                  </td>
+                </tr>
 
-          <tr onmouseout="realnessgan_stop()" onmouseover="realnessgan_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='realnessgan_image'>
-                  <img src='images/realnessgan_after.png' width="160"></div>
-                <img src='images/realnessgan_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function realnessgan_start() {
-                  document.getElementById('realnessgan_image').style.opacity = "1";
-                }
+                <tr
+                  onmouseout="matrixcity_stop()"
+                  onmouseover="matrixcity_start()"
+                >
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="matrixcity_image">
+                        <img src="images/matrixcity_after.png" width="160" />
+                      </div>
+                      <img src="images/matrixcity_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function matrixcity_start() {
+                        document.getElementById(
+                          "matrixcity_image"
+                        ).style.opacity = "1";
+                      }
 
-                function realnessgan_stop() {
-                  document.getElementById('realnessgan_image').style.opacity = "0";
-                }
-                realnessgan_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Real or Not Real, that is the Question</papertitle>
-              <br>
-              <strong>Yuanbo Xiangli*</strong>,
-              <a>Yubin Deng*</a>,
-              <a href="https://daibo.info/">Bo Dai*</a>,
-              <a href="https://www.mmlab-ntu.com/person/ccloy/">Chen Change Loy</a>,
-              <a href="http://dahua.site/">Dahua Lin</a>
-              <br>
-              <em>ICLR</em>, 2020 <strong>Spotlight</strong> 
-              <br>
-							<a href="https://github.com/kam1107/RealnessGAN">code</a> /
-              <a href="https://www.youtube.com/watch?v=ddYLx6kqcMg">video</a> /
-							<a href="https://arxiv.org/abs/2002.05512">paper</a> / 	
-              <a href="https://zhuanlan.zhihu.com/p/105171680">zhihu</a> 
-              <p></p>
-              <p>The proposed realness distribution provides stronger guidance to the generator and encourages it to learn more diverse outputs; enables the simplest GAN structure to synthesis high resolution portrait for the first time, with affordable computational overhead.</p>
-            </td>
-          </tr>
+                      function matrixcity_stop() {
+                        document.getElementById(
+                          "matrixcity_image"
+                        ).style.opacity = "0";
+                      }
+                      matrixcity_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://kam1107.github.io/">
+                      <papertitle>
+                        MatrixCity: A Large-scale City Dataset for City-scale
+                        Neural Rendering and Beyond</papertitle
+                      >
+                    </a>
+                    <br />
+                    <a href="https://yixuanli98.github.io/">Yixuan Li</a>,
+                    <a href="">Lihan Jiang</a>,
+                    <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>,
+                    <strong>Yuanbo Xiangli</strong>,
+                    <a href="http://dahua.site/">Dahua Lin</a>,
+                    <a href="https://daibo.info/">Bo Dai</a>
+                    <br />
+                    <em>ICCV, 2023</em>
+                    <br />
+                    <a href="https://city-super.github.io/matrixcity/"
+                      >project page</a
+                    >
+                    /
+                    <a href="https://arxiv.org/abs/2309.16553">paper</a>
+                    <p></p>
+                    <p>
+                      A large-scale, comprehensive, and high-quality synthetic
+                      dataset for city-scale neural rendering researches.
+                      Leveraging the Unreal Engine 5 City Sample project, we
+                      developed a pipeline to easily collect aerial and street
+                      city views with ground-truth camera poses, as well as a
+                      series of additional data modalities. Flexible control on
+                      environmental factors like light, weather, human and car
+                      crowd is also available in our pipeline, supporting the
+                      need of various tasks covering city-scale neural rendering
+                      and beyond.
+                    </p>
+                  </td>
+                </tr>
 
-          <tr onmouseout="nowhere_stop()" onmouseover="nowhere_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='nowhere_image'>
-                  <img src='images/nowhere_after.png' width="160"></div>
-                <img src='images/nowhere_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function nowhere_start() {
-                  document.getElementById('nowhere_image').style.opacity = "1";
-                }
+                <tr onmouseout="gridnerf_stop()" onmouseover="gridnerf_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="gridnerf_image">
+                        <img src="images/gridnerf_after.png" width="160" />
+                      </div>
+                      <img src="images/gridnerf_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function gridnerf_start() {
+                        document.getElementById(
+                          "gridnerf_image"
+                        ).style.opacity = "1";
+                      }
 
-                function nowhere_stop() {
-                  document.getElementById('nowhere_image').style.opacity = "0";
-                }
-                nowhere_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Nowhere to Hide: Cross-modal Identity Leakage between Biometrics and Devices</papertitle>
-              <br>
-              <a href="https://christopherlu.github.io/">Chris Xiaoxuan Lu</a>,
-              Yang Li,
-              <strong>Yuanbo Xiangli ✉️</strong>,
-              <a href="https://cse.ucdenver.edu/~lizheng/publications/index.html">Zhengxiong Li</a>
-              <br>
-              <em>WWW</em>, 2020 <strong>Oral</strong> 
-              <br>
-              <a href="https://github.com/zjzsliyang/CrossLeak">code</a> /
-              <a href="https://dl.acm.org/doi/10.1145/3366423.3380108">HTML</a> /
-							<a href="https://arxiv.org/abs/2001.08211">paper</a>  	
-              <p></p>
-              <p>We explore the feasibility of the compound identity leakage across cyber-physical spaces and unveil that co-located smart device IDs (e.g., smartphone MAC addresses) and physical biometrics (e.g., facial/vocal samples) are side channels to each other. An attacker can comprehensively profile victims in multi-dimension with nearly zero analysis effort.</p>
-            </td>
-          </tr>
+                      function gridnerf_stop() {
+                        document.getElementById(
+                          "gridnerf_image"
+                        ).style.opacity = "0";
+                      }
+                      gridnerf_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://city-super.github.io/gridnerf/">
+                      <papertitle>
+                        Grid-guided Neural Radiance Fields for Large Urban
+                        Scenes</papertitle
+                      >
+                    </a>
+                    <br />
+                    <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>,
+                    <strong>Yuanbo Xiangli*</strong>,
+                    <a href="https://pengsida.net/">Sida Peng</a>,
+                    <a href="https://xingangpan.github.io/">Xingang Pan</a>,
+                    <a href="http://nxzhao.com/">Nanxuan Zhao</a>,
+                    <a href="https://people.mpi-inf.mpg.de/~theobalt/index.html"
+                      >Christian Theobalt</a
+                    >, <a href="https://daibo.info/">Bo Dai</a>,
+                    <a href="http://dahua.site/">Dahua Lin</a>
+                    <br />
+                    <em>CVPR</em>, 2023
+                    <br />
+                    <a href="https://city-super.github.io/gridnerf/"
+                      >project page</a
+                    >
+                    /
+                    <a href="https://arxiv.org/abs/2303.14001">paper</a>
+                    <p></p>
+                    <p>
+                      This work targets at modeling vast-spanned urban regions
+                      and operates on real-world data sources. We use grid
+                      features to profile the scene and a light-weighted NeRF to
+                      pick up details. The two-branch model can produce
+                      photo-realistic results with high rendering speed.
+                    </p>
+                  </td>
+                </tr>
 
-          <tr onmouseout="scanp_stop()" onmouseover="scanp_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='scanp_image'>
-                  <img src='images/scanp_after.png' width="160"></div>
-                <img src='images/scanp_before.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function scanp_start() {
-                  document.getElementById('scanp_image').style.opacity = "1";
-                }
+                <tr onmouseout="omnicity_stop()" onmouseover="omnicity_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="omnicity_image">
+                        <img src="images/omnicity_after.png" width="160" />
+                      </div>
+                      <img src="images/omnicity_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function omnicity_start() {
+                        document.getElementById(
+                          "omnicity_image"
+                        ).style.opacity = "1";
+                      }
 
-                function scanp_stop() {
-                  document.getElementById('scanp_image').style.opacity = "0";
-                }
-                scanp_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <papertitle>Autonomous Learning of Speaker Identity and WiFi Geofence from Noisy Sensor Data</papertitle>
-              <br>
-              <a href="https://christopherlu.github.io/">Chris Xiaoxuan Lu</a>,
-              <strong>Yuanbo Xiangli</strong>,
-              <a href="https://scholar.google.co.uk/citations?user=et397zMAAAAJ&hl=en">Peijun Zhao</a>,
-              <a href="https://changhao-chen.github.io/">Changhao Chen</a>,
-              <a href="https://www.cs.ox.ac.uk/people/niki.trigoni/">Niki Trigoni</a>,
-              <a href="https://www.cs.ox.ac.uk/people/andrew.markham/">Andrew Markham</a>
+                      function omnicity_stop() {
+                        document.getElementById(
+                          "omnicity_image"
+                        ).style.opacity = "0";
+                      }
+                      omnicity_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://city-super.github.io/omnicity/">
+                      <papertitle>
+                        OmniCity: Omnipotent City Understanding with Multi-level
+                        and Multi-view Images</papertitle
+                      >
+                    </a>
+                    <br />
+                    <a href="https://liweijia.github.io/">Weijia Li</a>,
+                    <a>Yawen Lai</a>,
+                    <a href="https://eveneveno.github.io/lnxu/">Linning Xu</a>,
+                    <strong>Yuanbo Xiangli</strong>, <a>Jinhua Yu</a>,
+                    <a>Conghui He</a>,
+                    <a href="http://www.captain-whu.com/xia_En.html"
+                      >Guisong Xia</a
+                    >,
+                    <a href="http://dahua.site/">Dahua Lin</a>
+                    <br />
+                    <em>CVPR</em>, 2023
+                    <br />
+                    <a href="https://city-super.github.io/omnicity/"
+                      >project page</a
+                    >
+                    /
+                    <a href="https://arxiv.org/abs/2208.00928">paper</a>
+                    <p></p>
+                    <p>
+                      A new dataset containing multi-view satellite images and
+                      street-level panoramas, constituting over 100K pixel-wise
+                      annotated images that are well-aligned and collected from
+                      25K geo-locations.
+                    </p>
+                  </td>
+                </tr>
 
-              <br>
-              <em>IEEE Internet Things J.</em>, 2019  
-              <br>
-              <a href="https://ieeexplore.ieee.org/document/8755294">HTML</a> 
-              <p></p>
-            <!-- </td> -->
-            <!-- <td style="padding:20px;width:75%;vertical-align:middle"> -->
-              <papertitle>iSCAN: automatic speaker adaptation via iterative cross-modality association</papertitle>
-              <br>
-              <strong>Yuanbo Xiangli</strong>,
-              <a href="https://christopherlu.github.io/">Chris Xiaoxuan Lu</a>,
-              <a href="https://scholar.google.co.uk/citations?user=et397zMAAAAJ&hl=en">Peijun Zhao</a>,
-              <a href="https://changhao-chen.github.io/">Changhao Chen</a>,
-              <a href="https://www.cs.ox.ac.uk/people/andrew.markham/">Andrew Markham</a>
+                <tr
+                  onmouseout="bungeenerf_stop()"
+                  onmouseover="bungeenerf_start()"
+                >
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="bungeenerf_image">
+                        <img src="images/citynerf_after.png" width="160" />
+                      </div>
+                      <img src="images/citynerf_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function bungeenerf_start() {
+                        document.getElementById(
+                          "bungeenerf_image"
+                        ).style.opacity = "1";
+                      }
 
-              <br>
-              <em>UbiComp/ISWC Adjunct</em>, 2019  
-              <br>
-              <a href="https://dl.acm.org/doi/abs/10.1145/3341162.3344858">HTML</a> 
-              <p></p>
-              <p>The proposed framework leverages the abundant side-channel information provided by the ubiquitous IoT environment in mordern life, enabling the construction of an in-domain speaker recognition model with zero human enrollment.</p>
-            </td>
-          </tr>
-					
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                The website template was borrowed from <a href="https://github.com/jonbarron/jonbarron_website">Jon Baron</a>. Thanks for the generosity :)
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
-  </table>
-</body>
+                      function bungeenerf_stop() {
+                        document.getElementById(
+                          "bungeenerf_image"
+                        ).style.opacity = "0";
+                      }
+                      bungeenerf_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://city-super.github.io/citynerf/">
+                      <papertitle>
+                        BungeeNeRF: Progressive Neural Radiance Field for
+                        Extreme Multi-scale Scene Rendering</papertitle
+                      >
+                    </a>
+                    <br />
+                    <strong>Yuanbo Xiangli*</strong>,
+                    <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>,
+                    <a href="https://xingangpan.github.io/">Xingang Pan</a>,
+                    <a href="http://nxzhao.com/">Nanxuan Zhao</a>,
+                    <a href="https://anyirao.com/">Anyi Rao</a>,
+                    <a href="https://people.mpi-inf.mpg.de/~theobalt/index.html"
+                      >Christian Theobalt</a
+                    >, <a href="https://daibo.info/">Bo Dai</a>,
+                    <a href="http://dahua.site/">Dahua Lin</a>
+                    <br />
+                    <em>ECCV</em>, 2022
+                    <br />
+                    <a href="https://city-super.github.io/citynerf/"
+                      >project page</a
+                    >
+                    /
+                    <a href="https://arxiv.org/abs/2112.05504">paper</a>
+                    <p></p>
+                    <p>
+                      An attempt to bring NeRF to potentially city-scale scenes,
+                      which requires rendering drastically varied observations
+                      (level-of-detail and spatial coverage) at multiscales.
+                    </p>
+                  </td>
+                </tr>
 
+                <tr
+                  onmouseout="blockplanner_stop()"
+                  onmouseover="blockplanner_start()"
+                >
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="blockplanner_image">
+                        <img src="images/blockplanner_after.png" width="160" />
+                      </div>
+                      <img src="images/blockplanner_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function blockplanner_start() {
+                        document.getElementById(
+                          "blockplanner_image"
+                        ).style.opacity = "1";
+                      }
+
+                      function blockplanner_stop() {
+                        document.getElementById(
+                          "blockplanner_image"
+                        ).style.opacity = "0";
+                      }
+                      blockplanner_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://city-super.github.io/blockplanner/">
+                      <papertitle
+                        >BlockPlanner: City Block Generation with Vectorized
+                        Graph Representation</papertitle
+                      >
+                    </a>
+                    <br />
+                    <a href="https://eveneveno.github.io/lnxu/">Linning Xu*</a>,
+                    <strong>Yuanbo Xiangli*</strong>,
+                    <a href="https://anyirao.com/">Anyi Rao</a>,
+                    <a href="http://nxzhao.com/">Nanxuan Zhao</a>,
+                    <a href="https://daibo.info/">Bo Dai</a>,
+                    <a href="https://liuziwei7.github.io/">Ziwei Liu</a>,
+                    <a href="http://dahua.site/">Dahua Lin</a>
+                    <br />
+                    <em>ICCV</em>, 2021
+                    <br />
+                    <a href="https://city-super.github.io/blockplanner/"
+                      >project page</a
+                    >
+                    /
+                    <a
+                      href="https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_BlockPlanner_City_Block_Generation_With_Vectorized_Graph_Representation_ICCV_2021_paper.pdf"
+                      >paper</a
+                    >
+                    <p></p>
+                    <p>
+                      Use graph-based VAE to automatically learn from large
+                      amount of vectorized public urban planning data for fast
+                      generation of batches of diverse and valid city block
+                      templates.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr
+                  onmouseout="realnessgan_stop()"
+                  onmouseover="realnessgan_start()"
+                >
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="realnessgan_image">
+                        <img src="images/realnessgan_after.png" width="160" />
+                      </div>
+                      <img src="images/realnessgan_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function realnessgan_start() {
+                        document.getElementById(
+                          "realnessgan_image"
+                        ).style.opacity = "1";
+                      }
+
+                      function realnessgan_stop() {
+                        document.getElementById(
+                          "realnessgan_image"
+                        ).style.opacity = "0";
+                      }
+                      realnessgan_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <papertitle
+                      >Real or Not Real, that is the Question</papertitle
+                    >
+                    <br />
+                    <strong>Yuanbo Xiangli*</strong>, <a>Yubin Deng*</a>,
+                    <a href="https://daibo.info/">Bo Dai*</a>,
+                    <a href="https://www.mmlab-ntu.com/person/ccloy/"
+                      >Chen Change Loy</a
+                    >,
+                    <a href="http://dahua.site/">Dahua Lin</a>
+                    <br />
+                    <em>ICLR</em>, 2020 <strong>Spotlight</strong>
+                    <br />
+                    <a href="https://github.com/kam1107/RealnessGAN">code</a> /
+                    <a href="https://www.youtube.com/watch?v=ddYLx6kqcMg"
+                      >video</a
+                    >
+                    / <a href="https://arxiv.org/abs/2002.05512">paper</a> /
+                    <a href="https://zhuanlan.zhihu.com/p/105171680">zhihu</a>
+                    <p></p>
+                    <p>
+                      The proposed realness distribution provides stronger
+                      guidance to the generator and encourages it to learn more
+                      diverse outputs; enables the simplest GAN structure to
+                      synthesis high resolution portrait for the first time,
+                      with affordable computational overhead.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr onmouseout="nowhere_stop()" onmouseover="nowhere_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="nowhere_image">
+                        <img src="images/nowhere_after.png" width="160" />
+                      </div>
+                      <img src="images/nowhere_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function nowhere_start() {
+                        document.getElementById("nowhere_image").style.opacity =
+                          "1";
+                      }
+
+                      function nowhere_stop() {
+                        document.getElementById("nowhere_image").style.opacity =
+                          "0";
+                      }
+                      nowhere_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <papertitle
+                      >Nowhere to Hide: Cross-modal Identity Leakage between
+                      Biometrics and Devices</papertitle
+                    >
+                    <br />
+                    <a href="https://christopherlu.github.io/"
+                      >Chris Xiaoxuan Lu</a
+                    >, Yang Li, <strong>Yuanbo Xiangli ✉️</strong>,
+                    <a
+                      href="https://cse.ucdenver.edu/~lizheng/publications/index.html"
+                      >Zhengxiong Li</a
+                    >
+                    <br />
+                    <em>WWW</em>, 2020 <strong>Oral</strong>
+                    <br />
+                    <a href="https://github.com/zjzsliyang/CrossLeak">code</a> /
+                    <a href="https://dl.acm.org/doi/10.1145/3366423.3380108"
+                      >HTML</a
+                    >
+                    /
+                    <a href="https://arxiv.org/abs/2001.08211">paper</a>
+                    <p></p>
+                    <p>
+                      We explore the feasibility of the compound identity
+                      leakage across cyber-physical spaces and unveil that
+                      co-located smart device IDs (e.g., smartphone MAC
+                      addresses) and physical biometrics (e.g., facial/vocal
+                      samples) are side channels to each other. An attacker can
+                      comprehensively profile victims in multi-dimension with
+                      nearly zero analysis effort.
+                    </p>
+                  </td>
+                </tr>
+
+                <tr onmouseout="scanp_stop()" onmouseover="scanp_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one">
+                      <div class="two" id="scanp_image">
+                        <img src="images/scanp_after.png" width="160" />
+                      </div>
+                      <img src="images/scanp_before.png" width="160" />
+                    </div>
+                    <script type="text/javascript">
+                      function scanp_start() {
+                        document.getElementById("scanp_image").style.opacity =
+                          "1";
+                      }
+
+                      function scanp_stop() {
+                        document.getElementById("scanp_image").style.opacity =
+                          "0";
+                      }
+                      scanp_stop();
+                    </script>
+                  </td>
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <papertitle
+                      >Autonomous Learning of Speaker Identity and WiFi Geofence
+                      from Noisy Sensor Data</papertitle
+                    >
+                    <br />
+                    <a href="https://christopherlu.github.io/"
+                      >Chris Xiaoxuan Lu</a
+                    >, <strong>Yuanbo Xiangli</strong>,
+                    <a
+                      href="https://scholar.google.co.uk/citations?user=et397zMAAAAJ&hl=en"
+                      >Peijun Zhao</a
+                    >,
+                    <a href="https://changhao-chen.github.io/">Changhao Chen</a
+                    >,
+                    <a href="https://www.cs.ox.ac.uk/people/niki.trigoni/"
+                      >Niki Trigoni</a
+                    >,
+                    <a href="https://www.cs.ox.ac.uk/people/andrew.markham/"
+                      >Andrew Markham</a
+                    >
+
+                    <br />
+                    <em>IEEE Internet Things J.</em>, 2019
+                    <br />
+                    <a href="https://ieeexplore.ieee.org/document/8755294"
+                      >HTML</a
+                    >
+                    <p></p>
+                    <!-- </td> -->
+                    <!-- <td style="padding:20px;width:75%;vertical-align:middle"> -->
+                    <papertitle
+                      >iSCAN: automatic speaker adaptation via iterative
+                      cross-modality association</papertitle
+                    >
+                    <br />
+                    <strong>Yuanbo Xiangli</strong>,
+                    <a href="https://christopherlu.github.io/"
+                      >Chris Xiaoxuan Lu</a
+                    >,
+                    <a
+                      href="https://scholar.google.co.uk/citations?user=et397zMAAAAJ&hl=en"
+                      >Peijun Zhao</a
+                    >,
+                    <a href="https://changhao-chen.github.io/">Changhao Chen</a
+                    >,
+                    <a href="https://www.cs.ox.ac.uk/people/andrew.markham/"
+                      >Andrew Markham</a
+                    >
+
+                    <br />
+                    <em>UbiComp/ISWC Adjunct</em>, 2019
+                    <br />
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3341162.3344858"
+                      >HTML</a
+                    >
+                    <p></p>
+                    <p>
+                      The proposed framework leverages the abundant side-channel
+                      information provided by the ubiquitous IoT environment in
+                      mordern life, enabling the construction of an in-domain
+                      speaker recognition model with zero human enrollment.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table
+              style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              "
+            >
+              <tbody>
+                <tr>
+                  <td style="padding: 0px">
+                    <br />
+                    <p style="text-align: right; font-size: small">
+                      The website template was borrowed from
+                      <a href="https://github.com/jonbarron/jonbarron_website"
+                        >Jon Baron</a
+                      >. Thanks for the generosity :)
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
