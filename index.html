@@ -177,6 +177,146 @@
               "
             >
               <tbody>
+                <tr onmouseout="metricsc_stop()" onmouseover="metricsc_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one" style="position: relative">
+                      <img
+                        src="images/metricsc_after.png"
+                        width="160"
+                        id="metricsc_image_after"
+                        style="display: none"
+                      />
+                      <img
+                        src="images/metricsc_before.png"
+                        width="160"
+                        id="metricsc_image_before"
+                      />
+                    </div>
+                    <script type="text/javascript">
+                      function metricsc_start() {
+                        document.getElementById(
+                          "metricsc_image_before",
+                        ).style.display = "none";
+                        document.getElementById(
+                          "metricsc_image_after",
+                        ).style.display = "block";
+                      }
+
+                      function metricsc_stop() {
+                        document.getElementById(
+                          "metricsc_image_before",
+                        ).style.display = "block";
+                        document.getElementById(
+                          "metricsc_image_after",
+                        ).style.display = "none";
+                      }
+                      metricsc_stop();
+                    </script>
+                  </td>
+
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://metricscenes.github.io/">
+                      <papertitle>
+                        Honey, I Shrunk the Arc de Triomphe!
+                      </papertitle>
+                    </a>
+                    <br />
+                    <strong>Yuanbo Xiangli</strong>,
+                    <a href="https://hanyuc.com/">Hanyu Chen</a>
+                    Xueqing Tsang,
+                    <a href="https://www.cs.cornell.edu/~snavely/"
+                      >Noah Snavely</a
+                    >,
+                    <br />
+                    <em>ECCV, 2026</em>
+                    <br />
+                    <a href="https://metricscenes.github.io/">project page</a>
+                    /
+                    <a href="https://arxiv.org/abs/2606.02379">paper</a>
+                    <p></p>
+                    <p>
+                      To address the "scale-collapse" issue in monocular
+                      geometry estimation caused by restricted training data, we
+                      introduce MetricScenes, a diverse, large-scale dataset
+                      with recovered absolute scale, and a novel depth
+                      completion algorithm that improves metric accuracy in
+                      unconstrained real-world scenarios.
+                    </p>
+                  </td>
+                </tr>
+              </tbody>
+
+              <tbody>
+                <tr onmouseout="longtail_stop()" onmouseover="longtail_start()">
+                  <td style="padding: 20px; width: 25%; vertical-align: middle">
+                    <div class="one" style="position: relative">
+                      <img
+                        src="images/longtail_after.png"
+                        width="160"
+                        id="longtail_image_after"
+                        style="display: none"
+                      />
+                      <img
+                        src="images/longtail_before.png"
+                        width="160"
+                        id="longtail_image_before"
+                      />
+                    </div>
+                    <script type="text/javascript">
+                      function longtail_start() {
+                        document.getElementById(
+                          "longtail_image_before",
+                        ).style.display = "none";
+                        document.getElementById(
+                          "longtail_image_after",
+                        ).style.display = "block";
+                      }
+
+                      function longtail_stop() {
+                        document.getElementById(
+                          "longtail_image_before",
+                        ).style.display = "block";
+                        document.getElementById(
+                          "longtail_image_after",
+                        ).style.display = "none";
+                      }
+                      longtail_stop();
+                    </script>
+                  </td>
+
+                  <td style="padding: 20px; width: 75%; vertical-align: middle">
+                    <a href="https://metricscenes.github.io/">
+                      <papertitle>
+                        Long-Tail Internet Photo Reconstruction
+                      </papertitle>
+                    </a>
+                    <br />
+                    <a href="https://y-u-a-n-l-i.github.io/">Yuan Li</a>,
+                    <strong>Yuanbo Xiangli ✉️</strong>,
+                    <a href="https://www.hadarelor.com/">Hadar Averbuch-Elor</a
+                    >,
+                    <a href="https://www.cs.cornell.edu/~snavely/"
+                      >Noah Snavely</a
+                    >,
+                    <a href="https://ruojincai.github.io/">Ruojin Cai ✉️</a>
+                    <br />
+                    <em>CVPR, 2026</em>
+                    <br />
+                    <a href="https://metricscenes.github.io/">project page</a>
+                    /
+                    <a href="https://arxiv.org/abs/2604.22714">paper</a>
+                    <p></p>
+                    <p>
+                      We train more general 3D foundation models for the long
+                      tail of noisy, sparse, incomplete Internet photo
+                      collections of 3D scenes. Introducing MegaDepth-X, a large
+                      new dataset of scenes with high-quality 3D supervision,
+                      and a new way of simulating difficult image sets for
+                      training.
+                    </p>
+                  </td>
+                </tr>
+
                 <tr onmouseout="dgpp_stop()" onmouseover="dgpp_start()">
                   <td style="padding: 20px; width: 25%; vertical-align: middle">
                     <div class="one" style="position: relative">
